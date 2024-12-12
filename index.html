@@ -13,51 +13,50 @@
     <meta property="og:description" content="Dinkleberg's basic HTML website">
     <meta property="og:url" content="https://0mar77.github.io/basic-html-website/">
     <meta property="og:image" content="images/website.png">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body style="font-family: Arial, Helvetica, sans-serif; padding:0px; margin:0px;">
-    <header style="border:solid;padding-bottom:80px;">
-        <span style="position:absolute;margin:30px;font-size:18px;">Sheldon Dinkleberg</span>
-        <nav style="display:block; text-align:end;">
-            <ul style="list-style-type:none;display:inline-block;margin:30px;font-size:18px;">
-                <li style="display:inline-block;"><a href="/index.html">Home</a></li>
-                <li style="display:inline-block;"><a href="/pages/projects.html">/ Projects</a></li>
-                <li style="display:inline-block;"><a href="/pages/articles.html">/ Articles</a></li>
-                <li style="display:inline-block;"><a href="/pages/contact.html">/ Contact</a></li>
+
+    <header>
+        <span>Sheldon Dinkleberg</span>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/pages/projects.html">/ Projects</a></li>
+                <li><a href="/pages/articles.html">/ Articles</a></li>
+                <li><a href="/pages/contact.html">/ Contact</a></li>
             </ul>
         </nav>
 
-        <h1 style="font-family:cursive;text-align: center;">Frontend Developer</h1>
+        <h1>Frontend Developer</h1>
     </header>
 
-    <main style="border:solid; height:320px;display:grid;grid-template-columns:32% 33% 32%;">
-        <section style="text-align: center;">
-            <h2 style="font-family:cursive;">Projects</h2>
-            <div style="padding:10px;">HTML only Portfolio</div>
-            <div style="border-top:solid;padding:8px;">Quiz App</div>
-            <div style="border-top:solid;padding:8px;">Calculator</div>
-            <div style="border-top:solid;padding:8px;">Product Upcoming page</div>
+    <main id="homepage-main">
+        <section id="homepage-projects-section">
+            <h2>Projects</h2>
+            <div>HTML only Portfolio</div>
+            <div>Quiz App</div>
+            <div>Calculator</div>
+            <div>Product Upcoming page</div>
         </section>
 
-        <section style="text-align: center;border:solid;">
-            <h2 style="font-family:cursive;">Work Experience</h2>
-
-            <div style="text-align:left; padding:0px 14px; border-bottom:solid; font-size: 14px;">
-                <div style="font-family: cursive;">roadmap.sh</div>
-                <p style="margin-top:5px;">solved all of the Frontend projects <br>
-                    <a href="https://roadmap.sh/" style="font-size: 12px;">Visit my Profile</a>
+        <section id="homepage-work-experience-section">
+            <h2>Work Experience</h2>
+            <div class="work-experience-divs" id="roadmap-container">
+                <div class="work-experience-sub-titles">roadmap.sh</div>
+                <p>Solved all of the Frontend projects <br>
+                    <a class="work-experience-links" href="https://roadmap.sh/">Visit my Profile</a>
                 </p>
             </div>
-
-            <div style="text-align:left; padding:5px 14px; font-size:14px;">
-                <div style="font-family: cursive;">Open source work</div>
+            <div class="work-experience-divs">
+                <div class="work-experience-sub-titles">Open source work</div>
                 <p > Contributed to 50 opensource projects. Made my own projects with 200 github stardups <br>
-                    <a href="https://github.com/0mar77" style="font-size: 12px;">Visit my Github Profile</a>
+                    <a class="work-experience-links" href="https://github.com/0mar77">Visit my Github Profile</a>
                 </p>
             </div>
         </section>
 
-        <section style="text-align: center;">
-            <h2 style="font-family:cursive;">Education</h2>
+        <section>
+            <h2>Education</h2>
             <p style="font-size:14px; margin:28px 12px; text-align:left;">Graduated with a 2.4 out of 4. Was always late and just passed highschool</p>
             <div style="text-align:left; margin:12px">Courses I took:
                 <ul style="font-size: 14px;">
@@ -70,7 +69,7 @@
     </main>
 
     <footer>
-        <h2 style="font-family:cursive; margin:25px;">Reviews from my Teachers</h2>
+        <h2 style="margin:25px;">Reviews from my Teachers</h2>
         <section style="display:grid; grid-template-columns:32% 33% 32%; margin: 40px; grid-column-gap:20px;">
             <div style="border:solid; border-radius:28px; padding:15px">
                 Dinkleberg failed his driving test! <br><br>
