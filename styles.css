@@ -1,0 +1,81 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    border: solid;
+    padding-bottom: 80px;
+}
+
+span {
+    position: absolute;
+    margin: 30px;
+    font-size: 18px;
+}
+
+nav {
+    display: block;
+    text-align: end;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: 30px;
+    font-size: 18px;
+}
+
+li {
+    display: inline-block;
+}
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+}
+
+main {
+    border: solid;
+    height: 320px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#homepage-main section {
+    text-align: center;
+}
+
+h2 {
+    font-family: cursive;
+}
+
+#homepage-main #homepage-projects-section div {
+    border-top: solid;
+    padding: 8px;
+}
+
+#homepage-work-experience-section {
+    border: solid;
+}
+
+.work-experience-divs {
+    text-align: left;
+    padding: 5px 14px;
+    font-size: 14px;
+}
+
+#roadmap-container {
+    border-bottom: solid;
+}
+
+.work-experience-sub-titles {
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.work-experience-links {
+    font-size: 12px;
+}
+
