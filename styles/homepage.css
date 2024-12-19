@@ -20,14 +20,14 @@ nav {
     text-align: end;
 }
 
-ul {
+#nav-ul {
     list-style-type: none;
     display: inline-block;
     margin: 30px;
     font-size: 18px;
 }
 
-li {
+.nav-li {
     display: inline-block;
 }
 
@@ -36,7 +36,7 @@ h1 {
     text-align: center;
 }
 
-main {
+#homepage-main {
     border: solid;
     height: 320px;
     display: flex;
@@ -77,5 +77,42 @@ h2 {
 
 .work-experience-links {
     font-size: 12px;
+}
+
+#home-experience-p {
+    font-size: 14px;
+    margin: 28px 12px;
+    text-align: left;
+}
+
+#home-experience-div {
+    text-align: left;
+    margin: 12px;
+}
+
+#home-experience-ul {
+    font-size: 14px;
+}
+
+footer h2 {
+    margin: 25px;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-evenly; 
+    margin: 40px;
+}
+
+footer div {
+    border: solid;
+    border-radius: 28px;
+    padding: 15px;
+}
+
+#rights-reserved {
+    border: none;
+    font-family: cursive;
+    text-align: center;
 }
 

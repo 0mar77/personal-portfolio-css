@@ -13,17 +13,17 @@
     <meta property="og:description" content="Dinkleberg's basic HTML website">
     <meta property="og:url" content="https://0mar77.github.io/basic-html-website/">
     <meta property="og:image" content="images/website.png">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles/homepage.css">
 </head>
 
     <header>
         <span>Sheldon Dinkleberg</span>
         <nav>
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/pages/projects.html">/ Projects</a></li>
-                <li><a href="/pages/articles.html">/ Articles</a></li>
-                <li><a href="/pages/contact.html">/ Contact</a></li>
+            <ul id="nav-ul">
+                <li class="nav-li"><a href="/index.html">Home</a></li>
+                <li class="nav-li"><a href="/pages/projects.html">/ Projects</a></li>
+                <li class="nav-li"><a href="/pages/articles.html">/ Articles</a></li>
+                <li class="nav-li"><a href="/pages/contact.html">/ Contact</a></li>
             </ul>
         </nav>
 
@@ -55,11 +55,11 @@
             </div>
         </section>
 
-        <section>
+        <section id="homepage-experience-section">
             <h2>Education</h2>
-            <p style="font-size:14px; margin:28px 12px; text-align:left;">Graduated with a 2.4 out of 4. Was always late and just passed highschool</p>
-            <div style="text-align:left; margin:12px">Courses I took:
-                <ul style="font-size: 14px;">
+            <p id="home-experience-p">Graduated with a 2.4 out of 4. Was always late and just passed highschool</p>
+            <div id="home-experience-div">Courses I took:
+                <ul id="home-experience-ul">
                     <li>Object Oriented Programming</li>
                     <li>Web Engineering</li>
                     <li>Computer Graphics</li>
@@ -69,23 +69,23 @@
     </main>
 
     <footer>
-        <h2 style="margin:25px;">Reviews from my Teachers</h2>
-        <section style="display:grid; grid-template-columns:32% 33% 32%; margin: 40px; grid-column-gap:20px;">
-            <div style="border:solid; border-radius:28px; padding:15px">
+        <h2>Reviews from my Teachers</h2>
+        <section >
+            <div>
                 Dinkleberg failed his driving test! <br><br>
                 - Ms. Puff
             </div>
-            <div style="border:solid; border-radius:28px; padding:15px">
+            <div >
                 Dinkleberg did just enough to pass my class <br><br>
                 - Mr. Crocker
             </div>
-            <div style="border:solid; border-radius:28px; padding:15px">
+            <div>
                 I didn't know he was a student of mine <br><br>
                 -Mr. Mackey
             </div>
         </section>
 
-        <div style="font-family:cursive; text-align: center;">© All rights reserved 2025</div>
+        <div id="rights-reserved">© All rights reserved 2025</div>
     </footer>
 </body>
 </html>
