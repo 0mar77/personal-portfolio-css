@@ -1,0 +1,74 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    border: solid;
+    padding-bottom: 80px;
+}
+
+span {
+    position: absolute;
+    margin: 30px;
+    font-size: 18px;
+}
+
+nav {
+    display: block;
+    text-align: end;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: 30px;
+    font-size: 18px;
+}
+
+li {
+    display: inline-block;
+}
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+}
+
+h2 {
+    font-family: cursive;
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    padding: 80px;
+    border: solid;
+    width: 150px;
+    margin: 10px;
+}
+
+/* ----------------- contact page css specificss ----------------- */
+#contact-main {
+    text-align: center;
+}
+
+/* ---------------------------------------------------------------- */
+
+footer {
+    margin-top: 180px;
+    padding: 15px;
+}
+
+#rights-reserved {
+    border: none;
+    font-family: cursive;
+    text-align: center;
+}
+

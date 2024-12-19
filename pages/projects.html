@@ -13,34 +13,35 @@
     <meta property="og:description" content="Dinkleberg's basic HTML website">
     <meta property="og:url" content="https://0mar77.github.io/basic-html-website/">
     <meta property="og:image" content="../images/website.png">
+    <link rel="stylesheet" href="../styles/other-pages.css">
 </head>
 <body>
-    <header style="border:solid;padding-bottom:80px;">
-        <span style="position:absolute;margin:30px;font-size:18px;">Sheldon Dinkleberg</span>
-        <nav style="display:block; text-align:end;">
-            <ul style="list-style-type:none;display:inline-block;margin:30px;font-size:18px;">
-                <li style="display:inline-block;"><a href="/index.html">Home</a></li>
-                <li style="display:inline-block;"><a href="/pages/projects.html">/ Projects</a></li>
-                <li style="display:inline-block;"><a href="/pages/articles.html">/ Articles</a></li>
-                <li style="display:inline-block;"><a href="/pages/contact.html">/ Contact</a></li>
+    <header>
+        <span>Sheldon Dinkleberg</span>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/pages/projects.html">/ Projects</a></li>
+                <li><a href="/pages/articles.html">/ Articles</a></li>
+                <li><a href="/pages/contact.html">/ Contact</a></li>
             </ul>
         </nav>
 
-        <h1 style="font-family:cursive;text-align: center;">Frontend Developer</h1>
+        <h1>Frontend Developer</h1>
     </header>
 
     <main>
         <h2 style="font-family:cursive;">Projects</h2>
-        <section style="display:grid; grid-template-columns:48% 48%; text-align:center; grid-gap:10px;">
-            <div style="padding: 100px; border:solid;">HTML only Portfolio</div>
-            <div style="padding: 100px; border:solid;">Quiz App</div>
-            <div style="padding: 100px; border:solid;">Countdown Timer</div>
-            <div style="padding: 100px; border:solid;">Product Upcoming Page</div>
+        <section>
+            <div class="card">HTML only Portfolio</div>
+            <div class="card">Quiz App</div>
+            <div class="card">Countdown Timer</div>
+            <div class="card">Product Upcoming Page</div>
         </section>
     </main>
 
-    <footer style="margin-top:40px">
-        <div style="font-family:cursive; text-align: center;">All rights reserved 2025</div>
+    <footer>
+        <div id="rights-reserved">© All rights reserved 2025</div>
     </footer>
 </body>
 </html>
