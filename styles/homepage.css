@@ -191,6 +191,7 @@ footer div {
         border-right: none;
         border-top: solid;
         border-bottom: solid;
+        border-color: #6b6e70;
         width: 100%;
     }
 }
