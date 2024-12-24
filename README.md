@@ -14,7 +14,8 @@
 
 ## Usage
 
-Click on the link to open website[https://0mar77.github.io/personal-portfolio-css/]
+- Click on the link to open website[https://0mar77.github.io/personal-portfolio-css/]
+- Click on the link to open repository[https://github.com/0mar77/personal-portfolio-css]
 
 ## Project Page URL
 
